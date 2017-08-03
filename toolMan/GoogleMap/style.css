@@ -1,0 +1,33 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+	  
+#map { 
+	height: 80%;
+	margin-left:250px;
+	width: 100%;
+}
+
+#floating-panel {
+  position: absolute;
+  margin-left:260px;
+  margin-top:60px;
+  z-index: 2;
+  background-color: rgba(184,184,184,0.5);
+  <!--padding: 5px;
+  border: 1px solid #999;-->
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding: 10px;
+  border-radius:5px;
+}
+
+#ya{
+  font-size:15px;
+  font-weight:bold;
+}
+
+input,button{
+	 cursor:pointer;
+	 border-radius:5px;
+	 font-size:10px;	
+}
